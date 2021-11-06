@@ -22,6 +22,9 @@ jobs:
         # Provide the password for postgres
         env:
           POSTGRES_PASSWORD: ${{env.DATABASE_PASSWORD}}
+          POSTGRES_PORT : ${{env.DATABASE_PORT}}
+          POSTGRES_HOST : ${{env.DATABASE_HOST}}
+          POSTGRES_USERNAME : ${{env.DATABASE_USERNAME}}
         # Set health checks to wait until postgres has started
         options: >-
           --health-cmd pg_isready
