@@ -1,0 +1,3 @@
+# Database Github Actions
+[![CI](https://github.com/atharva-bhange/database-github-actions/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/atharva-bhange/database-github-actions/actions/workflows/CI.yml)
+[![codecov](https://codecov.io/gh/atharva-bhange/database-github-actions/branch/main/graph/badge.svg?token=XL1GDLQ8Y5)](https://codecov.io/gh/atharva-bhange/database-github-actions)
